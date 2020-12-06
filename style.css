@@ -1,0 +1,271 @@
+
+.container {
+	width: 1500px;
+	margin: auto;
+}
+
+.body {
+	width: 1500px;
+	margin: auto;
+}
+
+
+.home {
+	height: 800px;
+}
+
+
+.menu {
+	height: 700px;
+	width: 1500px;
+	margin: auto;
+}
+
+.careers {
+	height: 1000px;
+	margin: auto;
+	width: 1500px;
+}
+
+.gallery {
+	height: 600px;
+	margin: auto; 
+	width: 1500px;
+}
+
+
+
+
+.about {
+	height: 700px;
+}
+
+
+
+.navbar {
+	height: 100px;
+
+}
+
+.footer {
+	height: 100px;
+	
+}
+
+
+.home {
+	background-color: #7D8C96;
+}
+
+
+.navbar {
+	background-color: black;
+}
+
+
+
+.about {
+	background-color: black;
+}
+
+.menu {
+	background-color: black;
+}
+
+.careers {
+	background-color: cadetblue;
+}
+
+
+
+.footer {
+	background-color: #193F47;
+}
+
+
+
+.brand {
+	height: 170px;
+	width: 25%;
+	float: left;
+	margin-top: 40px;
+	margin: 55px;
+}
+
+.brand h2 {
+ 	color:  #99B7BC;
+ 	font-family: 'Lucida Sans';
+ 	font-style: italic;
+ 	font-size: 60px;
+ 	text-align: center;
+ }
+
+.book h3 {
+	color: #193F47;
+	font-family: 'Lucida Sans';
+	font-size: 24px;
+	text-align: center;
+}
+
+.book {
+	background-color: white;
+	height: 80px;
+	width: 25%;
+	float: left;
+	clear: both;
+	margin: 50px;
+	border-radius: 14px;
+
+}
+
+
+
+
+.img1 {
+	height: 600px;
+	width: 23%;
+	float: right;
+	background-color: red;
+	
+
+
+	
+	
+	 
+}
+
+.img2 {
+	height: 600px;
+	width: 23%;
+	float: right;
+	background-color: brown;
+	margin-top: 60px;
+	margin: 90px;
+	
+	
+}
+
+.view-menu {
+	height: 120px;
+	width: 25%;
+	float: left;
+	background-color: white;
+	margin: 125px;
+	border-radius: 14px
+	
+}
+
+.view-menu h3 {
+	color: black;
+	text-align: center;
+	font-size: 30px;
+}
+
+.about-img {
+	height: 500px;
+	width: 45%;
+	float: left;
+	background-color: hotpink;
+	margin-top: 90px;
+}
+
+
+.text {
+	
+	height: 250px;
+	width: 35%;
+	float: right;
+	margin: 100px;
+	margin-top: 100px;
+}
+
+.text h2 {
+	color: #99B7BC;
+	font-size: 35px;
+	font-family: 'Lucida Sans';
+ 	font-style: italic;
+	
+}
+
+.text p {
+	color: #99B7BC;
+	font-size: 20px;
+	font-family: 'Lucida Sans';
+}
+
+
+
+.careers-text {
+	height: 150px;
+	width: 35%;
+	margin: auto;
+	background-color: ivory;
+	margin: 20px;
+	
+}
+
+.careers-text, .h2 {
+	color: #193F47;
+	text-align: center;
+}
+
+.careers-text, .p {
+	color: #193F47;
+	text-align: center;
+}
+
+
+.learn-more {
+	height: 100px;
+	width: 20%;
+	margin: auto;
+	background-color: darkturquoise;
+	border-radius: 14px;
+
+}
+
+.learn-more, .h2 {
+		color: #193F47;
+		text-align: center;
+		margin-top: 50px;
+}
+
+navbar {
+  background-color: #99B7BC;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color:   #99B7BC;
+  text-align: right;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+
+.navbar a:hover {
+  background-color: #7D8C96;
+  color: #193F47;
+  border-radius: 14px;
+  
+}
+
+.home {
+    background-image: url("background-imgbw1.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+
+
+

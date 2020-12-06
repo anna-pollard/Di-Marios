@@ -1,0 +1,42 @@
+.container {
+	width: 1500px;
+	margin: auto;
+}
+
+.join-team {
+	width: 720px;
+	height:790px;
+	float: left;
+	background-color: black;
+
+}
+
+.join-imgs {
+	width: 760px;
+	height:790px;
+	float: left;
+	background-color: lightgrey;
+	
+}
+
+.join-team h2{
+	font-size: 44px;
+	font-style: italic;
+	text-align: center;
+	color: #99B7BC;
+
+}
+
+.join-team p, ul {
+	font-size: 24px;
+	font-style: normal;
+	text-align: left;
+	color: #99B7BC;
+}
+
+.img1 {
+	width: 305;
+	height: 289;
+	float: left;
+	background-color: lightblue;
+}
