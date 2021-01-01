@@ -21,18 +21,18 @@
 
 .careers {
 	height: 500px;
-	background-color: red;
+	background-color: black;
 	position: relative;
 }
 
 .gallery {
-	height: 800px;
+	height: 850px;
 	background-color: black;
 }
 
 .footer {
 	height: 150px;
-	background-color: #193F47;
+	background-color: #152D3B;
 }
 
 .navbar {
@@ -52,7 +52,7 @@ navbar {
   float: right;
   display: block;
   color:   #99B7BC;
-  text-align: right;
+  margin: auto;
   padding: 40px 40px;
   text-decoration: none;
   font-size: 25px;
@@ -72,6 +72,7 @@ navbar {
 	background-color: clear;
 	height: 850px;
 	width: 35%;
+	
 }
 
 .brand {
@@ -85,7 +86,7 @@ navbar {
 
 
 .booknow {
-	background-color: white;
+	background-color:  white;
 	height: 80px;
 	width: 300px;
 	float: left;
@@ -93,20 +94,35 @@ navbar {
 	clear: both;
 }
 
+.booknow a:hover {
+	display: block;
+	text-decoration: none;
+	background-color: #99B7BC;
+	padding: 5px 5px;
+	border-radius: 14px;
+	
+}
+
+.booknow a {
+	color: white;
+}
+
 .brand h2 {
  	color:  #99B7BC;
  	font-family: 'Lucida Sans';
  	font-style: italic;
- 	font-size: 55px;
+ 	font-size: 70px;
  	text-align: left;
  }
 
 .booknow h2 {
 	color: #193F47;
 	font-family: 'Lucida Sans';
-	font-size: 24px;
+	font-size: 27px;
 	text-align: center;
+	
 }
+
 
 
 .home {
@@ -127,6 +143,7 @@ navbar {
 
 
 
+
 .about-text {
 	height: 750px;
 	width: 45%;
@@ -136,28 +153,37 @@ navbar {
 }
 
 .about h2 {
-	text-align: center;
-	margin-top: 200px;
+	text-align: left;
+	margin-top: 170px;
 	color: #99B7BC;
-	font-size: 35px;
+	font-size: 45px;
 	font-style: italic;
 	
 }
 
 .about p {
-	text-align: center;
-	color: white;
+	text-align: left;
+	color: #D9D9D9;
+	font-size: 24px;
 }
 
-.about ul, i {
-	color: white;
-}
+
+
+
 
 .arrow {
-  border: solid white;
+  border: solid;
   border-width: 0 3px 3px 0;
+  border-color:  #D9D9D9;
   display: inline-block;
-  padding: 3px;
+  padding: 6px;
+  
+}
+
+.about-text a:hover {
+	color: #99B7BC ;
+	display: block;
+	padding: 0.03px 0.03px;
 }
 
 .right {
@@ -169,26 +195,93 @@ navbar {
     background-image: url("menu-img3.jpg");
     background-size: cover;
     background-position: right;
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 
 
 .menu-button {
-	height: 170px;
-	width: 350px;
-	background-color: beige;
+	height: 120px;
+	width: 370px;
+	background-color: #D9D9D9;
 	margin: auto;
-	margin-top 100px;
+	padding: 15px;
+	border-color: #D9D9D9;
+	border-radius: 14px;
+
+
+}
+
+.menu-button h2 {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 40px;
+	color: #193F47;
+	
+	
+}
+
+.menu-button a:hover {
+	display: block;
+	text-decoration: none;
+	background-color: #99B7BC;
+	padding: 10px 10px;
+	border-radius: 14px;
+	text-decoration:none;
+	
+}
+
+.menu-button a {
+	color:  #D9D9D9;
 }
 
 
-.find-out-more {
-	height: 500px;
-	width: 338px;
-	background-color: hotpink;
+
+.careers h2 {
+	margin-top: 0px;
+	text-align: center;
+	padding: 80px;
+	font-size: 40px;
+}
+
+.careers h2 {
+	color: #D9D9D9;
+	font-style: italic;
+}
+
+
+.find-out-button {
+	height: 100px;
+	width: 350px;
+	background-color: #99B7BC;
 	margin: auto;
+	margin-top: 20px;
+	border-radius: 14px;
 	
+}
+
+.find-out-button p {
+	color: #193F47;
+	font-family: 'Lucida Sans';
+	font-size: 26px;
+	text-align: center;
+	font-weight: 700;
+	
+	
+
+}
+
+.find-out-button a:hover {
+	display: block;
+	text-decoration: none;
+	background-color: #9E9080;
+	padding: 6px 6px;
+	border-radius: 14px;
+	
+}
+
+.find-out-button a {
+	color: #99B7BC;
 }
 
 .img1 {
@@ -252,13 +345,21 @@ navbar {
 	background-color: clear;
 }
 
+.socials {
+	width: 30%;
+	height: 150px;
+	float: right;
+	background-color: clear;
+	
+}
+
 .icon1 {
 	width: 7%;
 	height: 100px;
 	margin-top: 50px;
 	float: right;
 	background-color: clear;
-	margin-right: 20px;
+	margin-right: 100px;
 }
 
 .icon2 {
@@ -267,7 +368,7 @@ navbar {
 	margin-top: 50px;
 	float: right;
 	background-color: clear;
-	margin-right: 20px;
+	margin-right: 100px;
 }
 
 .icon3 {
@@ -276,7 +377,7 @@ navbar {
 	margin-top: 50px;
 	float: right;
 	background-color: clear;
-	margin-right: 20px;
+	margin-right: 100px;
 	
 }
 
@@ -285,6 +386,200 @@ navbar {
 	margin-top: 10px;
 	font-size: 20px;
 }
+
+
+
+/* Responsive navigation menu - align links in the center (for mobile devices) */
+@media screen and (max-width: 600px) {
+ 	.navbar a {
+ 	float: none;
+ 	padding: 10px 10px;
+ 	display: inline-block;
+ 	font-size: 22px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.home1 {
+ 	margin: auto;
+ 	}
+ }
+ @media screen and (max-width: 600px) {
+ 	.about-text {
+ 	float: none;
+ 	clear: both;
+ 	display: block;
+ 	margin: auto;
+ 	}
+ }
+ 
+  @media screen and (max-width: 600px) {
+ 	.about {
+ 	height: 1000px;
+ 	}
+ }
+
+  @media screen and (max-width: 600px) {
+ 	.about {
+ 	height: 1000px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.about-img {
+ 	margin: auto;
+ 	margin-left: 400px;
+ 	}
+ }
+ 	
+ 	@media screen and (max-width: 600px) {
+ 	.about {
+ 	height: 1000px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.about p {
+ 	text-align: center;
+ 	}
+ }
+ 
+  @media screen and (max-width: 600px) {
+ 	.about h2 {
+ 	text-align: center;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.menu-button {
+ 	width: 300px;
+ 	height: 150px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.gallery {
+ 	height: 2000px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.img1 {
+ 	margin-left: 580px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.img2 {
+ 	float: none;
+ 	clear: both;
+ 	background-color: black;
+ 	padding: 20px;
+ 	margin-top: 35px;
+ 	margin-left: 560px;
+ 	
+ 	}
+ }
+ 
+ 
+  
+  
+  @media screen and (max-width: 600px) {
+ 	.img3 {
+ 	float: none;
+ 	clear: both;
+ 	background-color: black;
+ 	margin-top: 15px;
+ 	padding: 20px;
+ 	margin-left: 560px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.img4 {
+ 	float: none;
+ 	clear: both;
+ 	background-color: black;
+ 	margin-top: 15px;
+ 	padding: 20px;
+ 	margin-left: 560px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.img5 {
+ 	float: none;
+ 	clear: both;
+ 	background-color: black;
+ 	margin-top: 15px;
+ 	padding: 20px;
+ 	margin-left: 560px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.img6 {
+ 	float: none;
+ 	clear: both;
+ 	background-color: black;
+ 	margin-top: 15px;
+ 	padding: 20px;
+ 	margin-left: 560px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.contact {
+ 	margin: auto;
+ 	width: 45%;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.contact h3 {
+ 	text-align: right;
+ 	}
+ }
+ 
+  @media screen and (max-width: 600px) {
+ 	.socials {
+ 	margin: auto;
+ 	width: 55%;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.icon1 {
+ 	margin-right: 260px;
+ 	}
+ }
+ 
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 	
+ 	
+ 
+ 
+ 
+
+
+
 
 
 
