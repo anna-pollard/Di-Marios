@@ -141,11 +141,60 @@ navbar {
 }
 
 @media screen and (max-width: 600px) {
+ 	.careers {
+ 	height: 1750px;
+ 	}
+ }
+
+@media screen and (max-width: 600px) {
  	.imgbox {
  	float: none;
  	clear: both;
- 	margin: auto;
  	margin: 0px;
+ 	margin: auto;
+ 	margin-top: 80px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.textbox {
+ 	float: none;
+ 	clear: both;
+ 	margin: 0px;
+ 	margin: auto;
+ 	}
+ }
+ 
+  @media screen and (max-width: 600px) {
+ 	.textbox , ul {
+ 	text-align: center;
+ 	
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.contact {
+ 	margin: auto;
+ 	width: 45%;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.contact h3 {
+ 	text-align: right;
+ 	}
+ }
+ 
+   @media screen and (max-width: 600px) {
+ 	.socials {
+ 	margin: auto;
+ 	width: 55%;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.icon1 {
+ 	margin-right: 260px;
  	}
  }
 

@@ -393,6 +393,7 @@ navbar {
 @media screen and (max-width: 600px) {
  	.navbar a {
  	float: none;
+ 	margin: 0px;
  	padding: 10px 10px;
  	display: inline-block;
  	font-size: 22px;

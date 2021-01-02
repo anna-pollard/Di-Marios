@@ -150,11 +150,27 @@ navbar {
 
 
   @media screen and (max-width: 600px) {
- 	.accordion p {
- 	text-align: center;
- 	padding: 0px;
+ 	.faqbox {
+	width: 590px;
+	float: none;
+	margin: 0px;
+	margin: auto;
  	}
  }
+ 
+ @media screen and (max-width: 600px) {
+ 	.faqbox p {
+	text-align: center;
+ 	}
+ }
+ 
+  @media screen and (max-width: 600px) {
+ 	.panel {
+	padding: 0 60px;
+ 	}
+ }
+ 
+ 
  
  @media screen and (max-width: 600px) {
  	.contact {
