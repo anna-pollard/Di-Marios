@@ -1,5 +1,5 @@
 .container {
-	width: 1500px;
+	width: 1400px;
 	margin: auto;
 }
 
@@ -86,11 +86,11 @@ navbar {
 
 
 .booknow {
-	background-color:  white;
+	background-color: #99B7BC;
 	height: 80px;
 	width: 300px;
 	float: left;
-	border-radius: 14px;
+	border-radius: 90px;
 	clear: both;
 }
 
@@ -99,7 +99,7 @@ navbar {
 	text-decoration: none;
 	background-color: #99B7BC;
 	padding: 5px 5px;
-	border-radius: 14px;
+	border-radius: 90px;
 	
 }
 
@@ -109,14 +109,14 @@ navbar {
 
 .brand h2 {
  	color:  #99B7BC;
- 	font-family: 'Lucida Sans';
- 	font-style: italic;
+	 font-family: 'Lucida Sans';
+	 font-style: italic;
  	font-size: 70px;
  	text-align: left;
  }
 
-.booknow h2 {
-	color: #193F47;
+.booknow h3 {
+	color: white;
 	font-family: 'Lucida Sans';
 	font-size: 27px;
 	text-align: center;
@@ -133,12 +133,11 @@ navbar {
 }
 
 .about-img {
-	height: 500px;
-	width: 752px;
+	height: 800px;
+	width: 600px;
 	float: left;
 	background-color: clear;
-	margin: 32px;
-	margin-top: 80px;
+	
 }
 
 
@@ -146,7 +145,7 @@ navbar {
 
 .about-text {
 	height: 750px;
-	width: 45%;
+	width: 650px;
 	float: right;
 	background-color: black;
 	
@@ -154,7 +153,6 @@ navbar {
 
 .about h2 {
 	text-align: left;
-	margin-top: 170px;
 	color: #99B7BC;
 	font-size: 45px;
 	font-style: italic;
@@ -195,7 +193,7 @@ navbar {
     background-image: url("menu-img3.jpg");
     background-size: cover;
     background-position: right;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 
@@ -203,20 +201,25 @@ navbar {
 .menu-button {
 	height: 120px;
 	width: 370px;
-	background-color: #D9D9D9;
+	background-color: white;
+	opacity: 80%;
 	margin: auto;
+	border-color: #193F47;
+	border-width: 5px;
 	padding: 15px;
-	border-color: #D9D9D9;
-	border-radius: 14px;
+	border-radius: 30px;
+	
 
 
 }
+
+
 
 .menu-button h2 {
 	margin-top: 20px;
 	text-align: center;
 	font-size: 40px;
-	color: #193F47;
+	color: #152D3B;
 	
 	
 }
@@ -232,7 +235,7 @@ navbar {
 }
 
 .menu-button a {
-	color:  #D9D9D9;
+	color:white;
 }
 
 
@@ -240,7 +243,7 @@ navbar {
 .careers h2 {
 	margin-top: 0px;
 	text-align: center;
-	padding: 80px;
+	padding: 60px;
 	font-size: 40px;
 }
 
@@ -249,23 +252,31 @@ navbar {
 	font-style: italic;
 }
 
+.careers p {
+color: white;
+font-size: 20px;
+text-align: center;
+
+}
+
 
 .find-out-button {
 	height: 100px;
 	width: 350px;
 	background-color: #99B7BC;
 	margin: auto;
-	margin-top: 20px;
-	border-radius: 14px;
+	margin-top: 50px;
+	border-radius: 30px;
 	
 }
 
 .find-out-button p {
-	color: #193F47;
+	color: white;
 	font-family: 'Lucida Sans';
 	font-size: 26px;
 	text-align: center;
-	font-weight: 700;
+	padding: 30px;
+	font-weight: 550;
 	
 	
 
@@ -274,9 +285,9 @@ navbar {
 .find-out-button a:hover {
 	display: block;
 	text-decoration: none;
-	background-color: #9E9080;
-	padding: 6px 6px;
-	border-radius: 14px;
+	background-color: #193F47;
+	padding: 3px 3px;
+	border-radius: 30px;
 	
 }
 
@@ -338,6 +349,134 @@ navbar {
 	margin-left: 50px;
 }
 
+.our-story1 {
+    background-color: black;
+    height: 900px; 
+    width: 1400px;
+}
+
+
+
+.our-story2 {
+    background-color: black;
+    height: 950px; 
+}
+
+.footer {
+    background-color: #152D3B;
+    height: 150px;
+}
+
+navbar {
+  background-color: #99B7BC;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.navbar a {
+  float: right;
+  display: inline-block;
+  color:   #99B7BC;
+  text-align: right;
+  padding: 40px 40px;
+  text-decoration: none;
+  font-size: 25px;
+
+}
+
+
+.navbar a:hover {
+  background-color: #7D8C96;
+  color: #193F47;
+  border-radius: 14px;
+  
+}
+
+.pic {
+    height: 670px;
+    width: 650px;
+    background-color:black;
+    float: right;
+    margin-top: 100px;
+
+}
+
+
+
+
+
+.text {
+    height: 450px;
+    width: 500px;
+    background-color: black;
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+    
+}
+
+
+p {
+    color: #D9D9D9;
+    font-family: "Times Sans Serif",Times,Baskerville,Georgia,serif;
+    font-size: 26px;
+
+}
+
+h2 {
+    color: #99B7BC;
+    font-family: "Times Sans Serif",Times,Baskerville,Georgia,serif;
+    font-style: light;
+    font-size: 45px;
+    
+    
+}
+
+
+
+.pic2 {
+    height: 670px;
+    width: 650px;
+    background-color: black;
+    float: left;
+    margin-top: 130px;
+}
+
+.text2 {
+    height: 450px;
+    width: 500px;
+    background-color: black;
+    float: right;
+    margin-right: 80px;
+    margin-top: 100px;
+
+    
+}
+
+.text2 p {
+    color: #D9D9D9;
+    font-family: "Times Sans Serif",Times,Baskerville,Georgia,serif;
+    font-size: 26px;
+    
+}
+
+.footer {
+	height: 150px;
+	background-color: #152D3B;
+	border: solid;
+	border-color: #D9D9D9;
+	border-width: 2px;
+	
+}
+
+
+
+
+
+
+
 .contact {
 	width: 30%;
 	height: 150px;
@@ -386,6 +525,111 @@ navbar {
 	margin-top: 10px;
 	font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 600px) {
+ 	.our-story1 {
+ 	height: 1250px;
+ 	}
+ }
+  
+
+   @media screen and (max-width: 600px) {
+ 	.pic {
+ 	float: none;
+ 	clear: both;
+ 	margin: auto;
+ 	margin-top: 0px;
+ 	}
+ }
+  
+@media screen and (max-width: 600px) {
+ 	.text {
+ 	float: none;
+ 	clear: both;
+ 	margin: auto;
+ 	margin-top: 0px;
+ 	
+ 	}
+ }
+  
+  @media screen and (max-width: 600px) {
+ 	.text h2 {
+ 	margin-top: 0px;
+ 	padding: 17px;
+ 	
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.our-story2 {
+ 	height: 1250px;
+ 	}
+ }
+  
+  @media screen and (max-width: 600px) {
+ 	.pic2 {
+ 	float: none;
+ 	clear: both;
+ 	margin: auto;
+ 	margin-top: 0px;
+ 	}
+ }
+
+@media screen and (max-width: 600px) {
+ 	.text2 {
+ 	float: none;
+ 	clear: both;
+ 	margin: auto;
+ 	margin-top: 0px;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.text2 h2 {
+ 	margin-top: 0px;
+ 	padding: 17px;
+ 	
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.contact {
+ 	margin: auto;
+ 	width: 45%;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.contact h3 {
+ 	text-align: right;
+ 	}
+ }
+ 
+   @media screen and (max-width: 600px) {
+ 	.socials {
+ 	margin: auto;
+ 	width: 55%;
+ 	}
+ }
+ 
+ @media screen and (max-width: 600px) {
+ 	.icon1 {
+ 	margin-right: 260px;
+ 	}
+ }
+
 
 
 
@@ -554,6 +798,47 @@ navbar {
  	margin-right: 260px;
  	}
  }
+
+ @media screen and (max-width: 600px) {
+    .menu {
+    height: 2700px;
+    }
+ }
+ 
+ @media screen and (max-width: 600px) {
+    .pasta {
+    float: none;
+    margin: 0px;
+    clear: both;
+    margin: auto;
+    }
+ }
+ 
+ @media screen and (max-width: 600px) {
+    .pizza {
+    float: none;
+    margin: 0px;
+    clear: both;
+    margin: auto;
+    width: 27%;
+    margin-top: 30px;
+    
+    }
+ }
+ 
+  @media screen and (max-width: 600px) {
+    .drinks {
+    float: none;
+    margin: 0px;
+    clear: both;
+    margin: auto;
+    margin-top: 30px;
+    }
+ }
+ 
+ 
+
+
  
 
 
